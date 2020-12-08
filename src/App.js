@@ -41,7 +41,7 @@ const App = () => {
       
     });
   };
-  clearErrors();
+  
   const handleSignup = () => {
     fire
     .auth()
