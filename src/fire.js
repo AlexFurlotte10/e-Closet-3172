@@ -1,6 +1,5 @@
-import firebase from 'firebase';
-
- var firebaseConfig = {
+import firebase from'firebase';
+  var firebaseConfig = {
     apiKey: "AIzaSyD75kayjIjo4tJYiGnJ8Auv0dQddQsKo8g",
     authDomain: "milestone3-14b44.firebaseapp.com",
     projectId: "milestone3-14b44",
@@ -11,5 +10,4 @@ import firebase from 'firebase';
   };
 
   const fire = firebase.initializeApp(firebaseConfig);
-
   export default fire;

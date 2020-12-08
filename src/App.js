@@ -27,7 +27,7 @@ const App = () => {
     .auth()
     .signInWithEmailAndPassword(email, password)
     .catch(err => {
-      // eslint-disable-next-line
+      
       switch(err.code){
         case "auth/invalid-email":
         case "auth/user-disabled":
@@ -47,11 +47,11 @@ const App = () => {
     .auth()
     .createUserWithEmailAndPassword(email, password)
     .catch(err => {
-      // eslint-disable-next-line
+      
       switch(err.code){
         case "auth/email-already-in-use":
-        case "auth/user-disabled":
-        case "auth/user-not-found":
+        case "auth/invalid-email":
+       
         setEmailError(err.message);
         break;
         case "auth/weak-password":
@@ -63,6 +63,7 @@ const App = () => {
 const handleLogout = () => {
   fire.auth().signOut()
 };
+//does user exist?
 const authListener = () => {
   fire.auth().onAuthStateChanged(user => {
     if (user) {
