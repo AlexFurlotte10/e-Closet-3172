@@ -1,9 +1,14 @@
+/*App.js contains all functions used for logging in and out, and making profile posts
+NOTE: This app has code that was taken from https://www.youtube.com/watch?v=cFgoSrOui2M&t=908s&ab_channel=h3webdevtuts
+      to learn login functionality. Code has been tailored to the needs ofe-closet
+*/
 import React, {useState, useEffect} from "react";
 import fire from './fire';
 import Login from './Login';
 import Hero from "./Hero";
 import './App.css';
 
+//constructor
 const App = () => {
   const [user,setUser] = useState('');
   const [email, setEmail] = useState('');
@@ -11,16 +16,17 @@ const App = () => {
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [hasAccount, setHasAccount] = useState(false);
-
+//initialize empty form
   const clearInputs = () => {
     setEmail('');
     setPassword('');
   }
+  //clear if there is invalid entry
   const clearErrors = () => {
     setEmailError("");
     setPasswordError("");
   }
-
+//login functionality for when user has an account already
   const handleLogin = () =>{
     clearErrors();
     fire
@@ -41,7 +47,7 @@ const App = () => {
       
     });
   };
-  
+  //Signup functionality for new users
   const handleSignup = () => {
     fire
     .auth()
@@ -60,6 +66,7 @@ const App = () => {
       }
     });
 };
+//for the logout button on user profile
 const handleLogout = () => {
   fire.auth().signOut()
 };
@@ -103,5 +110,7 @@ useEffect(() =>{
     </div>
   );
   };
+
+  
 
 export default App;

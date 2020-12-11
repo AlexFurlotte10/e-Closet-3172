@@ -1,3 +1,5 @@
+//connection to firebase for authorization and post
+
 import firebase from'firebase';
   var firebaseConfig = {
     apiKey: "AIzaSyD75kayjIjo4tJYiGnJ8Auv0dQddQsKo8g",
