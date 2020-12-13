@@ -1,4 +1,5 @@
 import React from 'react';
+import footer from './footer'
 
 const Hero = ({handleLogout}) => {
     return(
@@ -10,4 +11,5 @@ const Hero = ({handleLogout}) => {
         </section>
     );
 };
+<footer></footer>
 export default Hero;

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Header from'./header';
+import Footer from './footer';
 
 const login = (props) => {
 
@@ -8,13 +10,15 @@ const login = (props) => {
 
     return(
         <section classname="login">
+        <Header></Header>
 
             <div className="loginContainer">
+                
                 <label> Username</label>
                 <input type="text"autoFocus required value={email}
                  onChange={(e)=>setEmail(e.target.value)}/>
 
-    <p className="errorMsg">{emailError}</p>;
+    <p className="errorMsg">{emailError}</p>
     <label>Password</label>
     <input type="password" required value={password}
      onChange={(e)=> setPassword(e.target.value)}/>
@@ -36,6 +40,7 @@ const login = (props) => {
          )}
      </div>
      </div>
+    <Footer></Footer>
             </section>
         
     )
