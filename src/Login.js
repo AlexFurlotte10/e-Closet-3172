@@ -16,17 +16,7 @@ const login = (props) => {
 
     return(
         <section classname="login">
-<<<<<<< HEAD
-        <Header></Header>
-
-            <div className="loginContainer">
-                
-                <label> Username</label>
-                <input type="text"autoFocus required value={email}
-                 onChange={(e)=>setEmail(e.target.value)}/>
-
-    <p className="errorMsg">{emailError}</p>
-=======
+            <Header></Header>
         {/* form to login */}
             <div className="loginContainer">
                 <label> Email</label>
@@ -34,7 +24,6 @@ const login = (props) => {
                  onChange={(e)=>setEmail(e.target.value)}/>
         {/* In case user uses invalid credentials for username*/}
     <p className="errorMsg">{emailError}</p>;
->>>>>>> f378266d4e38ebabb4cdaa45af49e7e1210b9e04
     <label>Password</label>
     <input type="password" required value={password}
      onChange={(e)=> setPassword(e.target.value)}/>
@@ -57,16 +46,13 @@ const login = (props) => {
          )}
      </div>
      </div>
-<<<<<<< HEAD
-    <Footer></Footer>
-=======
      {/* home page description */}
      <div>
          <h1>Welcome to e-Closet</h1>
          <h3>This is a place where you can post your clothing to show your friends!</h3>
          <h4>We offer a place dedicated to the buying and selling of clothes</h4>
      </div>
->>>>>>> f378266d4e38ebabb4cdaa45af49e7e1210b9e04
+            <Footer></Footer>
             </section>
         
     )
