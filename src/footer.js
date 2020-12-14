@@ -9,8 +9,8 @@ class Footer extends React.Component
     return (
         <footer>
         <p>© 2020 e-Closet</p>
-        <a href="url">About</a><br></br>
-        <a href="mailto:e-Closet@gmail.com">Contact us</a>
+        <a href="Login.js">Home</a><br></br>
+        <p>Contact us at e-Closet@gmail.com</p>
         </footer>
     )
   }

@@ -10,9 +10,9 @@ class Header extends React.Component
         
         <header>
             <h1>e-Closet</h1>
-            <a href="#search">Search</a>
-            <a href="#profile">My Profile</a>
-            <a href="#logout">Logout</a>
+            <a href="Login.js">Home</a>
+            <a href="Hero.js">My Profile</a>
+            
         </header>
     )
   }

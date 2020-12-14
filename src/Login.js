@@ -7,6 +7,7 @@ import React from 'react';
 import './App.css';
 import Header from'./header';
 import Footer from './footer';
+import clothes from './img/clothes.jfif';
 
 //constructor
 const login = (props) => {
@@ -17,16 +18,13 @@ const login = (props) => {
     return(
         <section classname="login">
             <Header></Header>
-            <h1>Welcome to e-Closet</h1>
-         <h3>This is a place where you can post your clothing to show your friends!</h3>
-         <h4>We offer a place dedicated to the buying and selling of clothes</h4>
         {/* form to login */}
             <div className="loginContainer">
                 <label> Email</label>
                 <input type="text"autoFocus required value={email}
                  onChange={(e)=>setEmail(e.target.value)}/>
         {/* In case user uses invalid credentials for username*/}
-    <p className="errorMsg">{emailError}</p>;
+    <p className="errorMsg">{emailError}</p>
     <label>Password</label>
     <input type="password" required value={password}
      onChange={(e)=> setPassword(e.target.value)}/>
@@ -38,21 +36,24 @@ const login = (props) => {
          {hasAccount ? (
              <>
                 <button onClick={()=>handleLogin}>Sign in</button>
-                <p>Don't have an account ? {" "}<span  onClick={() => setHasAccount(!hasAccount)}>Sign up </span></p>
+                <p>Don't have an account? {" "}<span  onClick={() => setHasAccount(!hasAccount)}>  Sign up </span></p>
              </>
          ) : (
             <>
             <button onClick={handleSignup}>Sign Up</button>
-            <p>Have an account ?
-                 <span  onClick={() => setHasAccount(!hasAccount)}>Sign in</span></p>
+            <p>Have an account?
+                 <span  onClick={() => setHasAccount(!hasAccount)}>  Sign in</span></p>
          </>
 
          )}
      </div>
      </div>
      {/* home page description */}
-     <div>
-         
+     <div className="welcome">
+         <h1>Welcome to e-Closet</h1>
+         <h3>This is a place where you can post your clothing to show your friends!</h3>
+         <h4>Buy/Sell/Trade. It is up to you, it is your closet!</h4>
+         <img src={clothes} alt="img"className='img'/>
      </div>
             <Footer></Footer>
             </section>

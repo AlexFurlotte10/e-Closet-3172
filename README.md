@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# e-Closet site description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+## Functionality
+e-Closet is a website where we promote the sale of used clothes. Users will enter the landing page and either register or log-in. We use Google's Firebase Authentication to perform login/registration. Once the user is logged in they will be brought to their profile page where they will see a form where they can make a post and in their feed below is other user posts. This is a simple open feed where users will put their contact information in their post to connect with buyers/sellers. Functionality of making a post will be implemnted in mFinal. We are working to connect our posting forms and firebase storage. 
+
+## Security
+e-Closet is going to be secure by using Google Firebase Authentication. Emails are stored in the database and the password is encrypted then stored. You cannot see the password using inspection. Profile page is not viewable unless user is logged in. Users can only post when logged in to stop random people spamming. We stop spam or misuse by going into frebase, searching for the user and locking/terminating their account.
+
+## Design
+e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.
+
+
+## You will want to npm install and then npm start after cloning. 
+
+
+## Sources
+-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-Logging in functionality was learned using this tutorial: https://www.youtube.com/watch?v=cFgoSrOui2M&t=908s&ab_channel=h3webdevtuts and then tailored to our needs.
+-React framework was learned from https://reactjs.org/docs/getting-started.html and then applied to our needs.
+
 
 ## Available Scripts
 
