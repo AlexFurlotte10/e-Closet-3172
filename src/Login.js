@@ -17,6 +17,9 @@ const login = (props) => {
     return(
         <section classname="login">
             <Header></Header>
+            <h1>Welcome to e-Closet</h1>
+         <h3>This is a place where you can post your clothing to show your friends!</h3>
+         <h4>We offer a place dedicated to the buying and selling of clothes</h4>
         {/* form to login */}
             <div className="loginContainer">
                 <label> Email</label>
@@ -30,6 +33,7 @@ const login = (props) => {
      {/* In case user uses invalid credentials for password*/}
      <p className="errorMsg">{passwordError}</p>
      {/* Does user have an account or vice versa? Select to show signup or sign in */}
+     
      <div className="btnContainer">
          {hasAccount ? (
              <>
@@ -48,9 +52,7 @@ const login = (props) => {
      </div>
      {/* home page description */}
      <div>
-         <h1>Welcome to e-Closet</h1>
-         <h3>This is a place where you can post your clothing to show your friends!</h3>
-         <h4>We offer a place dedicated to the buying and selling of clothes</h4>
+         
      </div>
             <Footer></Footer>
             </section>

@@ -1,7 +1,9 @@
 //This page is for the user profile to make posts to their page
 
 import React from 'react';
-import footer from './footer'
+import Footer from './footer'
+
+
 
 const Hero = ({handleLogout}) => {
     return(
@@ -24,7 +26,7 @@ const Hero = ({handleLogout}) => {
         <button>submit</button>
         
 
-
+        <Footer></Footer>
         </section>
         
     );
