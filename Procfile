@@ -1,1 +1,1 @@
-web: Login.js
+web: Index.js
