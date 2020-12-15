@@ -12,6 +12,12 @@ e-Closet is going to be secure by using Google Firebase Authentication. Emails a
 ## Design
 e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.
 
+## Changes from milestone plan
+For the landing page we made some changes. We have the credential boxes in the middle of the page and made the picture bigger. The functionality of the boxes can be changed as the user can user them to login in or change it to register. We made some design changes to the header and footer. Mainly just moved around elements for a more user firendly design. Logout still needs to be incoperated into the header. Search bar may stay in the header but we might add it to the users landing page where they are able to create a post.The footer is not final either as we may change the design of it as we play around to decide on a final look. Might also add more options to it. Creating an account works as it should and also displays error message to the user if they do not follow formating rules. CSS need to be fixed on the error messages so they appear in red text. 
+
+## future additions
+we will be adding more features in the next couple days to try and complete the vision that we created in our milestones. As mentioned, we have some bugs to fix such as the sign in feature, and more functions to add. The major ones we will be adding have to do with searching for users and having posts show up. We have started the steps to add such features and been planning how we will makes such implementations. The first steps can be seen in the site.
+
 
 ## You will want to npm install and then npm start after cloning. 
 
