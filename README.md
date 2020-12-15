@@ -33,7 +33,7 @@ we will be adding more features in the next couple days to try and complete the 
 
 In the project directory, you can run:
 
-### 'npm install'
+### `npm install`
 installs and sets up the packet manager
 ### `npm start`
 
