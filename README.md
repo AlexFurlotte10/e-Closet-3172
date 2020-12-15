@@ -1,3 +1,4 @@
+https://github.com/AlexFurlotte10/e-Closet-3172
 # e-Closet site description
 
 
@@ -32,6 +33,8 @@ we will be adding more features in the next couple days to try and complete the 
 
 In the project directory, you can run:
 
+### 'npm install'
+installs and sets up the packet manager
 ### `npm start`
 
 Runs the app in the development mode.\
