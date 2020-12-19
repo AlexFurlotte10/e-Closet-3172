@@ -81,10 +81,14 @@ button {
   
 }
 
-.login .loginContainer .btnContainer p {
+.login .loginContainer .btnContainer p:hover {
   margin: 14px 0 0 0;
   text-align: center;
   color: #fff;
+}
+.btnContainer p:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .login .loginContainer .btnContainer p span {
@@ -156,10 +160,14 @@ Header a{
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  padding-left: 50px;
+  padding-left: 20px;
   text-decoration: none;
   font-size: 17px;
   padding-top: 20px;
+}
+Header a:hover {
+  background-color: #ddd;
+  color: black;
 }
 h3{
   text-align: center;
