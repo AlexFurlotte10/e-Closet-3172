@@ -2,7 +2,12 @@ https://github.com/AlexFurlotte10/e-Closet-3172
 # e-Closet site description
 
 
-
+##mFinal Changes
+e-Closet has added a better colour-scheme to be more approachable to thos who are colourblind.
+Capability of manually looking through posts to lock/ban users who pose threat
+sign in is functional
+posting contnet is functional
+Welcome text is over masthead
 
 ## Functionality
 e-Closet is a website where we promote the sale of used clothes. Users will enter the landing page and either register or log-in. We use Google's Firebase Authentication to perform login/registration. Once the user is logged in they will be brought to their profile page where they will see a form where they can make a post and in their feed below is other user posts. This is a simple open feed where users will put their contact information in their post to connect with buyers/sellers. Functionality of making a post will be implemnted in mFinal. We are working to connect our posting forms and firebase storage. 
