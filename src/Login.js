@@ -41,7 +41,7 @@ const login = (props) => {
          {hasAccount ? (
              <>
                 <button onClick={()=>handleLogin()}>Sign in</button>
-                <p>Don't have an account? {" "}<span  onClick={() => setHasAccount(!hasAccount)}>  Sign up </span></p>
+                <p>New to e-Closet? {" "}<a  onClick={() => setHasAccount(!hasAccount)}>  Sign up </a></p>
              </>
          ) : (
             <>

@@ -262,3 +262,6 @@ Button{
 .errorMsg{
   color:red;
 }
+.btnContainer{
+  background-color: whitesmoke;
+}
