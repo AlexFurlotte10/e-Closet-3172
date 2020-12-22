@@ -141,7 +141,13 @@ footer{
   color: #f2f2f2;
   padding-top: 0px;
   padding-bottom: 10px;
-  
+}
+
+footer img{
+  padding-right:15px;
+}
+footer img:hover{
+  cursor: pointer;
 }
 Header H1{
   background-color: grey;
