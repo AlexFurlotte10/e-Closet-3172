@@ -1,12 +1,15 @@
-https://github.com/AlexFurlotte10/e-Closet-3172
+
+
 # e-Closet site description
 
+## Repository: https://github.com/AlexFurlotte10/e-Closet-3172
+## active link: https://e-closet-3172.vercel.app/
 
 ## mFinal Changes
 - e-Closet has added a better colour-scheme to be more approachable to thos who are colourblind.
-- Capability of manually looking through posts to lock/ban users who pose threat
+- Capability of manually looking through posts to lock/ban users who pose threat using vercel logs
 - sign in is functional
-- posting contnet is functional
+- posting contet is functional
 - Welcome text is over masthead
 - added a functional link for deployment
 
@@ -14,7 +17,7 @@ https://github.com/AlexFurlotte10/e-Closet-3172
 e-Closet is a website where we promote the sale of used clothes. Users will enter the landing page and either register or log-in. We use Google's Firebase Authentication to perform login/registration. Once the user is logged in they will be brought to their profile page where they will see a form where they can make a post and in their feed below is other user posts. This is a simple open feed where users will put their contact information in their post to connect with buyers/sellers. Functionality of making a post will be implemnted in mFinal. We are working to connect our posting forms and firebase storage. 
 
 ## Security
-e-Closet is going to be secure by using Google Firebase Authentication. Emails are stored in the database and the password is encrypted then stored. You cannot see the password using inspection. Profile page is not viewable unless user is logged in. Users can only post when logged in to stop random people spamming. We stop spam or misuse by going into frebase, searching for the user and locking/terminating their account.
+e-Closet is going to be secure by using Google Firebase Authentication. Emails are stored in the database and the password is encrypted then stored. You cannot see the password using inspection. Profile page is not viewable unless user is logged in. Users can only post when logged in to stop random people spamming. We stop spam or misuse by going into firebase, searching for the user and locking/terminating their account. We can identify users and activity using vercel logs.
 
 ## Design
 e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.
@@ -22,11 +25,10 @@ e-Closet is an accesible website. We use colour-blindness conscious colours and 
 ## Changes from milestone plan
 For the landing page we made some changes. We have the credential boxes in the middle of the page and made the picture bigger. The functionality of the boxes can be changed as the user can user them to login in or change it to register. We made some design changes to the header and footer. Mainly just moved around elements for a more user firendly design. Logout still needs to be incoperated into the header. Search bar may stay in the header but we might add it to the users landing page where they are able to create a post.The footer is not final either as we may change the design of it as we play around to decide on a final look. Might also add more options to it. Creating an account works as it should and also displays error message to the user if they do not follow formating rules. CSS need to be fixed on the error messages so they appear in red text. 
 
-## future additions
-we will be adding more features in the next couple days to try and complete the vision that we created in our milestones. As mentioned, we have some bugs to fix such as the sign in feature, and more functions to add. The major ones we will be adding have to do with searching for users and having posts show up. We have started the steps to add such features and been planning how we will makes such implementations. The first steps can be seen in the site.
 
 
-## You will want to npm install and then npm start after cloning. 
+
+## You will want to npm install and then npm start after cloning to host locally
 
 
 ## Sources
