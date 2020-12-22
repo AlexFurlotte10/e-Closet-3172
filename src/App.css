@@ -259,3 +259,6 @@ Button{
   border: black;
   border-style: solid;
 }
+.errorMsg{
+  color:red;
+}
