@@ -154,6 +154,7 @@ Header {
   font-size: xx-large;
   text-align: center;
   overflow: hidden;
+ 
 }
 Header a{
   float: left;
@@ -238,12 +239,13 @@ p{
   background-color: grey;
 }
 .loginContainer{
-  margin: 10px;
+  width: 250px;
   border: black;
   border-style: solid;
-  margin-left: 30%;
-  margin-right: 30%;
+  
   line-height: 2;
+  text-align: center;
+  margin:auto;
 }
 Button{
   border: black;
