@@ -19,8 +19,12 @@ const login = (props) => {
     return(
         <section classname="login">
             <Header></Header>
+            <h1 id ="head">Welcome to e-Closet</h1>
+         <h3 id ="secondhead">Buy/Sell/Trade</h3>
+         
         {/* form to login */}
             <div className="loginContainer">
+                <h4>Login/Sign Up <br></br></h4>
                 <label> Email</label>
                 <input type="text"autoFocus required value={email}
                  onChange={(e)=>setEmail(e.target.value)}/>
@@ -51,9 +55,7 @@ const login = (props) => {
      </div>
      {/* home page description */}
      <div className="welcome">
-         <h1>Welcome to e-Closet</h1>
-         <h3>This is a place where you can post your clothing to show your friends!</h3>
-         <h4>Buy/Sell/Trade. It is up to you, it is your closet!</h4>
+         
          <img src={clothes} alt="img"className='img'/>
      </div>
             <Footer></Footer>
