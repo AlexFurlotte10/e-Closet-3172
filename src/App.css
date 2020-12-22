@@ -227,9 +227,8 @@ p{
 #welcome{
   display: flex;
   background-color: grey;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: space-around;
+  
 }
 #head{
   font-size: 40px;
@@ -244,4 +243,9 @@ p{
   border-style: solid;
   margin-left: 30%;
   margin-right: 30%;
+  line-height: 2;
+}
+Button{
+  border: black;
+  border-style: solid;
 }
