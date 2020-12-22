@@ -10,10 +10,10 @@ const Hero = ({handleLogout}) => {
         // banner with logout
         <section className="hero">
             <Header></Header>
-        <nav>
-        <h2>Welcome </h2>
+        <div id ="welcome">
+        <h2>Welcome</h2>
         <button onClick={handleLogout}>Logout</button>
-        </nav>
+        </div>
 
         
 

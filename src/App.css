@@ -5,7 +5,7 @@
   font-family: "Nunito", sans-serif;
 }
 .loginContainer{
-  background-color: rgb(242, 243, 192);
+  background-color: white;
   text-align: center;
   padding: 10px 10px;
 }
@@ -17,16 +17,16 @@ button {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
-  background: blue;
+  background: #51c9db;
   cursor: pointer;
   text-align: center;
 }
 .btnContainer{
-  background-color: rgb(242, 243, 192);
+  background-color: white;
   text-align: center;
 }
 .welcome{
-  background-color: rgb(242, 243, 192);
+  background-color:white;
   text-align: center;
 }
 .login {
@@ -48,7 +48,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(242, 243, 192);
+  background-color: white;
   align-items: center;
  
 }
@@ -92,7 +92,7 @@ button {
 }
 
 .login .loginContainer .btnContainer p span {
-  color: blue;
+  color: #51c9db;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-left: 5px;
@@ -113,7 +113,7 @@ button {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: rgb(242, 243, 192);
+  background: white;
 }
 
 
@@ -127,13 +127,13 @@ button {
 }
 
 .hero nav h2 {
-  color:blue;
+  color:#51c9db;
 }
 
 .hero nav button {
   width: 86px;
   padding: 8px 0;
-  background: blue;
+  background: #51c9db;
 }
 footer{
   background-color: grey;
@@ -180,7 +180,7 @@ h3{
 }
 h1{ 
   text-align: center;
-  color: blue;
+  color: #51c9db;
 }
 h4{
   text-align: center;
@@ -229,4 +229,29 @@ p{
   width: 100px;
   height: 100px;
   text-align: center;
+}
+#welcome{
+  display: flex;
+  background-color: grey;
+  justify-content: space-around;
+  
+}
+#head{
+  font-size: 40px;
+  background-color: grey;
+}
+#secondhead{
+  background-color: grey;
+}
+.loginContainer{
+  margin: 10px;
+  border: black;
+  border-style: solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 2;
+}
+Button{
+  border: black;
+  border-style: solid;
 }
