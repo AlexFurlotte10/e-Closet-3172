@@ -9,15 +9,21 @@
 - e-Closet has added a better colour-scheme to be more approachable to thos who are colourblind.
 - Capability of manually looking through posts to lock/ban users who pose threat using vercel logs
 - sign in is functional
-- posting contet is functional
+- posting content is functional
 - Welcome text is over masthead
 - added a functional link for deployment
+- simpler ux navigation with simpler navigation buttons
 
 ## Functionality
 e-Closet is a website where we promote the sale of used clothes. Users will enter the landing page and either register or log-in. We use Google's Firebase Authentication to perform login/registration. Once the user is logged in they will be brought to their profile page where they will see a form where they can make a post and in their feed below is other user posts. This is a simple open feed where users will put their contact information in their post to connect with buyers/sellers. Functionality of making a post will be implemnted in mFinal. We are working to connect our posting forms and firebase storage. 
 
 ## Security
 e-Closet is going to be secure by using Google Firebase Authentication. Emails are stored in the database and the password is encrypted then stored. You cannot see the password using inspection. Profile page is not viewable unless user is logged in. Users can only post when logged in to stop random people spamming. We stop spam or misuse by going into firebase, searching for the user and locking/terminating their account. We can identify users and activity using vercel logs.
+### Things we hope to implement in the future:
+- security to have user post logs to be associated directly with the account to help in banning users
+- hide certain files such as fire.js which show valuable database information
+- Limit users to 3 log in attempts before they are locked out and have to contact admin to be unlocked
+- 
 
 ## Design
 e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.

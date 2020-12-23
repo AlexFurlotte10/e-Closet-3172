@@ -156,12 +156,14 @@ Header H1{
   float: left;
   padding-left: 15px;
   
+  
 }
 Header {
   background-color: grey;
   font-size: xx-large;
   text-align: center;
   overflow: hidden;
+  
  
 }
 Header a{
@@ -248,12 +250,15 @@ p{
 }
 .loginContainer{
   width: 250px;
-  border: black;
+  border: #51c9db;
   border-style: solid;
+  border-width: 2px;
   
   line-height: 2;
   text-align: center;
   margin:auto;
+  height: 400px;
+  padding: 5px;
 }
 Button{
   border: black;
@@ -264,4 +269,7 @@ Button{
 }
 .btnContainer{
   background-color: whitesmoke;
+}
+section{
+  background:black;
 }
