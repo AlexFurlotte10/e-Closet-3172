@@ -24,7 +24,7 @@ const login = (props) => {
          
         {/* form to login */}
             <div className="loginContainer">
-                <h4>Login/Sign Up <br></br></h4>
+                <h4>Login <br></br></h4>
                 <label> Email<br></br></label>
                 <input type="text"autoFocus required value={email}
                  onChange={(e)=>setEmail(e.target.value)}/>
@@ -39,17 +39,17 @@ const login = (props) => {
      
      <div className="btnContainer">
          {hasAccount ? (
-             <>
-                <button onClick={()=>handleLogin()}>Sign in</button>
-                <p>New to e-Closet? {" "}<a  onClick={() => setHasAccount(!hasAccount)}>  Sign up </a></p>
-             </>
-         ) : (
             <>
             <button onClick={handleSignup}>Sign Up</button>
             <p>Have an account?
                  <span  onClick={() => setHasAccount(!hasAccount)}>  Sign in</span></p>
-         </>
-
+         </> 
+         ) : (
+           
+            <>
+            <button onClick={()=>handleLogin()}>Sign in</button>
+            <p>New to e-Closet? {" "}<a  onClick={() => setHasAccount(!hasAccount)}>  Sign up </a></p>
+            </>
          )}
      </div>
      </div>
