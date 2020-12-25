@@ -24,13 +24,13 @@ const login = (props) => {
          
         {/* form to login */}
             <div className="loginContainer">
-                <h4>Login/Sign Up <br></br></h4>
-                <label> Email</label>
+                <h4>Login <br></br></h4>
+                <label> Email<br></br></label>
                 <input type="text"autoFocus required value={email}
                  onChange={(e)=>setEmail(e.target.value)}/>
         {/* In case user uses invalid credentials for username*/}
     <p className="errorMsg">{emailError}</p>
-    <label>Password</label>
+    <label>Password<br></br></label>
     <input type="password" required value={password}
      onChange={(e)=> setPassword(e.target.value)}/>
      {/* In case user uses invalid credentials for password*/}
@@ -39,17 +39,17 @@ const login = (props) => {
      
      <div className="btnContainer">
          {hasAccount ? (
-             <>
-                <button onClick={()=>handleLogin()}>Sign in</button>
-                <p>Don't have an account? {" "}<span  onClick={() => setHasAccount(!hasAccount)}>  Sign up </span></p>
-             </>
-         ) : (
             <>
             <button onClick={handleSignup}>Sign Up</button>
             <p>Have an account?
                  <span  onClick={() => setHasAccount(!hasAccount)}>  Sign in</span></p>
-         </>
-
+         </> 
+         ) : (
+           
+            <>
+            <button onClick={()=>handleLogin()}>Sign in</button>
+            <p>New to e-Closet? {" "}<a  onClick={() => setHasAccount(!hasAccount)}>  Sign up </a></p>
+            </>
          )}
      </div>
      </div>

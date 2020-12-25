@@ -20,8 +20,8 @@ const Hero = ({handleLogout}) => {
         {/* create post form */}
         <div className = 'postForm'>
         <h3>Create Post</h3>
-        <form>Title<input></input></form>
-        <form className='description'>Description<input></input></form>
+        <form ><textarea placeholder="Title"rows="1"cols="20"></textarea></form>
+        <form className='description'><textarea rows ="10" cols="50" placeholder="Size,Description,Contact Information"></textarea></form>
         <form>Photo<input type='file'></input></form>
 
         <button>submit</button>
