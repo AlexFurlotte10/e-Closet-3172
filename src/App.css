@@ -273,3 +273,32 @@ Button{
 section{
   background:black;
 }
+#add-post{
+  align-content: center;
+  overflow: hidden;
+  text-align: center;
+  clear: both;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+#add-post #title{
+  clear: both;
+  float: none;
+  margin-bottom: 8px;
+}
+#add-post #description{
+  clear: both;
+  margin-bottom: 8px;
+}
+#add-post #file{
+  clear: both;
+  margin-bottom: 8px;
+  float: left;
+}
+#add-post button{
+  
+}
+#add-post label{
+  text-align: center;
+}

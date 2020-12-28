@@ -8,6 +8,9 @@ import Login from './Login';
 import Hero from "./Hero";
 import './App.css';
 
+
+
+
 //constructor
 const App = () => {
   const [user,setUser] = useState('');
@@ -16,11 +19,15 @@ const App = () => {
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [hasAccount, setHasAccount] = useState(false);
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
+  const [file, setFile] = useState('');
 //initialize empty form
   const clearInputs = () => {
     setEmail('');
     setPassword('');
   }
+
   //clear if there is invalid entry
   const clearErrors = () => {
     setEmailError("");
@@ -70,6 +77,20 @@ const App = () => {
 const handleLogout = () => {
   fire.auth().signOut()
 };
+//this is the method that was gonna be used to post pictures but was unable to complete it.
+const addPost = () => {
+  setTitle(title);
+  setDescription(description);
+  setFile(file);
+  //fire.addPost(title,description,file);
+  
+  fire.collection("posts").add({
+    title: this.state.title,
+    description: this.state.description,
+    file: this.state.file
+  })
+};
+
 //does user exist?
 const authListener = () => {
   fire.auth().onAuthStateChanged(user => {
@@ -82,6 +103,7 @@ const authListener = () => {
     }
   });
 };
+
 
 useEffect(() =>{
   authListener();
@@ -109,8 +131,9 @@ useEffect(() =>{
       )}
     </div>
   );
-  };
 
-  
+
+};
+
 
 export default App;

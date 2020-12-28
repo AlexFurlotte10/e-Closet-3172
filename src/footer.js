@@ -16,9 +16,9 @@ class Footer extends React.Component
         <p>Contact us at e-Closet@gmail.com</p>
         <p>© 2020 e-Closet</p>
         <br></br>
-        <img src={logo1}/>
-        <img src={logo2} height='60'/>
-        <img src={logo3} height='60'/>
+        <img src={logo1} alt='Facebooks logo, a square with an F inside it'/>
+        <img src={logo2} height='60' alt='Instagrams logo, basic drawing of a camera'/>
+        <img src={logo3} height='60' alt='Twitters logo, a small little bird flying.'/>
         </footer>
     )
   }

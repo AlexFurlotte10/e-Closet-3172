@@ -9,7 +9,6 @@
 - e-Closet has added a better colour-scheme to be more approachable to thos who are colourblind.
 - Capability of manually looking through posts to lock/ban users who pose threat using vercel logs
 - sign in is functional
-- posting content is functional
 - Welcome text is over masthead
 - added a functional link for deployment
 - simpler ux navigation with simpler navigation buttons
@@ -24,6 +23,7 @@ e-Closet is going to be secure by using Google Firebase Authentication. Emails a
 - hide certain files such as fire.js which show valuable database information
 - Limit users to 3 log in attempts before they are locked out and have to contact admin to be unlocked
 - 
+Unfortunately, we were unable to get the posting functionality to work for our app. We believe that how we built the app and the app's structure made it harder than it should be to implement such a feature. If we had more time on our hands, we would most likely be able to find a way to make it work. The code that was left in was our latest attempt at trying to get it to work as we watched many videos and tutorials and different attempts to get the feature to work. I feel that we were pretty close.
 
 ## Design
 e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.
