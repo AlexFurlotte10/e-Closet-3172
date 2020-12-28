@@ -25,6 +25,8 @@ e-Closet is going to be secure by using Google Firebase Authentication. Emails a
 - 
 Unfortunately, we were unable to get the posting functionality to work for our app. We believe that how we built the app and the app's structure made it harder than it should be to implement such a feature. If we had more time on our hands, we would most likely be able to find a way to make it work. The code that was left in was our latest attempt at trying to get it to work as we watched many videos and tutorials and different attempts to get the feature to work. I feel that we were pretty close.
 
+We created a new sign-up form as during our meeting with Sam, he brought up a good point of how the form needs to be different. For example, when the user creates an account they should have to enter the password twice, to confrim that it is correct. We created a new form with these changes but it was ultimately scrapped as it had a major bug we were unable to fix. When you would write in one box, it would start typing in all of the input boxes, defeating the purpose of why we made it. We were unable to solve this bug and did not want it in the final version so we removed it.
+
 ## Design
 e-Closet is an accesible website. We use colour-blindness conscious colours and simple design. User is able to translate the wording into another language by a third party application of their choice. We use descriptive language to make the experience simple for those who may not be technically-skilled. Our website does not come with a mobile app therefore we promote responsive web design. Audio instrctions have not been implented yet.
 
