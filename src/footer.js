@@ -13,8 +13,8 @@ class Footer extends React.Component
       //footer options links and fuctionality will be updated
         <footer>
         <a href="Login.js">Home</a><br></br>
-        <p>Contact us at e-Closet@gmail.com</p>
-        <p>© 2020 e-Closet</p>
+        <p>Contact us at HushHush@gmail.com</p>
+        <p>© 2020 Hush Hush</p>
         <br></br>
         <img src={logo1} alt='Facebooks logo, a square with an F inside it'/>
         <img src={logo2} height='60' alt='Instagrams logo, basic drawing of a camera'/>

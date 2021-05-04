@@ -10,7 +10,7 @@ class Header extends React.Component
         //header options links will be updated
         <header>
           <div id ="e-closet">
-            <h1>e-Closet</h1>
+            <h1>Hush Hush</h1>
             </div>
             <a href="Login.js">Home</a>
             <a href="Hero.js">My Profile</a>

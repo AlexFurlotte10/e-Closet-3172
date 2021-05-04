@@ -19,8 +19,8 @@ const login = (props) => {
     return(
         <section classname="login">
             <Header></Header>
-            <h1 id ="head">Welcome to e-Closet</h1>
-         <h3 id ="secondhead">Buy/Sell/Trade</h3>
+            <h1 id ="head">Welcome to Hush Hush</h1>
+         <h3 id ="secondhead">Share your thoughts in confidence!</h3>
          
         {/* form to login */}
             <div className="loginContainer">
